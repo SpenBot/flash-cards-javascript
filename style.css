@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(40, 40, 40);
+  color: rgb(40, 240 ,160);
+
+}
+
+
+/* ///// WELCOME DIV /////////////////////// */
+/* ///////////////////////////////////////// */
+
+#welcomeDiv {
+  height: 200px;
+  width: 450px;
+  border: solid 2px rgb(40, 240 ,160);
+  margin: 50px auto 0;
+
+  text-align: center;
+}
+
+#welcomeDiv p {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+#playButton{
+  height: 40px;
+  width: 120px;
+  border: solid 2px rgb(40, 240 ,160);
+  margin: 10px auto;
+  text-align: center;
+}
+
+#playButton:hover{
+  background-color: rgb(40, 240 ,160);
+  color: rgb(40, 40, 40);
+  cursor: pointer;
+}
+
+#playButton p {
+  margin-top: 6px;
+  font-size: 26px;
+}
+
+
+/* ///// CARD DIV ////////////////////////// */
+/* ///////////////////////////////////////// */
+
+#flashCardDiv {
+  height: 350px;
+  width: 600px;
+  border: solid 2px rgb(40, 240 ,160);
+  margin: 30px auto;
+
+  text-align: center;
+}
+
+/* ///// CARD HEADER ////////////////////////// */
+
+#flashCardDiv h2 {
+  text-decoration: underline;
+  margin-top: 45px;
+}
+
+/* ///// CARD QUESTIONS /////////////////////// */
+
+#questionsDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  height: 200px;
+  width: 400px;
+  /* border: solid 2px rgb(40, 240 ,160); */
+  margin: 30px auto 0;
+}
+
+#questionsDiv p {
+  font-size: 22px;
+  height: 35px;
+  width: 180px;
+  border: solid 2px rgb(40, 240 ,160);
+  text-align: center;
+  padding-top: 10px;
+}
+
+#questionsDiv p:hover {
+  background-color: rgb(40, 240 ,160);
+  color: rgb(40, 40, 40);
+  cursor: pointer;
+}
